@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T13:15:05.066Z",
+  "generatedAt": "2026-09-21T13:14:02.557Z",
   "sources": {
     "uk": {
       "checked": 219,
@@ -146,7 +146,7 @@
     }
   },
   "steekproef": {
-    "dag": 20710,
+    "dag": 20717,
     "perBron": {
       "uk": {
         "gekoppeld": 219,
@@ -159,8 +159,8 @@
       "us": {
         "gekoppeld": 225,
         "getest": 6,
-        "ok": 3,
-        "verdacht": 3,
+        "ok": 6,
+        "verdacht": 0,
         "onbereikbaar": 0,
         "geblokkeerd": false
       },
@@ -191,8 +191,8 @@
       "au": {
         "gekoppeld": 220,
         "getest": 6,
-        "ok": 6,
-        "verdacht": 0,
+        "ok": 4,
+        "verdacht": 2,
         "onbereikbaar": 0,
         "geblokkeerd": false
       },
@@ -287,74 +287,66 @@
     },
     "verdacht": [
       {
-        "bron": "us",
-        "iso3": "BQ-SA",
-        "land": "Saba",
-        "id": "saba",
-        "reden": "geen advies teruggegeven",
+        "bron": "au",
+        "iso3": "PRK",
+        "land": "Noord-Korea",
+        "id": "asia/north-korea",
+        "reden": "pagina zonder niveau en zonder inhoud (0 thema's) — mogelijk een stubpagina",
         "geblokkeerd": false
       },
       {
-        "bron": "us",
-        "iso3": "BQ-SE",
-        "land": "Sint Eustatius",
-        "id": "sint-eustatius",
-        "reden": "geen advies teruggegeven",
+        "bron": "au",
+        "iso3": "SXM",
+        "land": "Sint Maarten",
+        "id": "americas/sint-maarten-dutch-part",
+        "reden": "pagina zonder niveau en zonder inhoud (0 thema's) — mogelijk een stubpagina",
         "geblokkeerd": false
       },
       {
-        "bron": "us",
-        "iso3": "SJM",
-        "land": "Spitsbergen (Svalbard)",
-        "id": "svalbard-and-jan-mayen",
+        "bron": "ch",
+        "iso3": "NGA",
+        "land": "Nigeria",
+        "id": "nigeria/reisehinweise-fuernigeria.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "LBN",
-        "land": "Libanon",
-        "id": "libanon/reisehinweise-fuerlibanon.html",
+        "iso3": "CPV",
+        "land": "Kaapverdië",
+        "id": "kap-verde/reisehinweise-fuerkapverde.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "LAO",
-        "land": "Laos",
-        "id": "laos/reisehinweise-fuerlaos.html",
+        "iso3": "LKA",
+        "land": "Sri Lanka",
+        "id": "sri-lanka/reisehinweise-fuersrilanka.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "JOR",
-        "land": "Jordanië",
-        "id": "jordanien/reisehinweise-fuerjordanien.html",
+        "iso3": "TKM",
+        "land": "Turkmenistan",
+        "id": "turkmenistan/reisehinweise-fuerturkmenistan.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "DOM",
-        "land": "Dominicaanse Republiek",
-        "id": "dominikanische-republik/reisehinweise-fuerdiedo-minikanischerepublik.html",
+        "iso3": "BEN",
+        "land": "Benin",
+        "id": "benin/reisehinweise-fuerbenin.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "TTO",
-        "land": "Trinidad en Tobago",
-        "id": "trinidad-und-tobago/reisehinweise-fuertrinidadundtobago.html",
-        "reden": "geen advies teruggegeven",
-        "geblokkeerd": false
-      },
-      {
-        "bron": "ch",
-        "iso3": "PAN",
-        "land": "Panama",
-        "id": "panama/reisehinweise-fuerpanama.html",
+        "iso3": "ZAF",
+        "land": "Zuid-Afrika",
+        "id": "suedafrika/reisehinweise-fuersuedafrika.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       }
@@ -362,63 +354,63 @@
     "onbereikbaar": [
       {
         "bron": "fi",
-        "iso3": "QAT",
-        "land": "Qatar",
-        "id": "QA",
-        "reden": "403 https://um.fi/matkustustiedote/-/c/QA",
+        "iso3": "CPV",
+        "land": "Kaapverdië",
+        "id": "CV",
+        "reden": "403 https://um.fi/matkustustiedote/-/c/CV",
         "geblokkeerd": false
       },
       {
         "bron": "no",
-        "iso3": "TJK",
-        "land": "Tadzjikistan",
-        "id": "tadsjikistan/2428585",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_tadsjikistan/id2428585/ (direct: 403 https:",
+        "iso3": "PHL",
+        "land": "Filipijnen",
+        "id": "filippinene/2416248",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_filippinene/id2416248/ (direct: 403 https:/",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "TCD",
-        "land": "Tsjaad",
-        "id": "tsjad/2429023",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_tsjad/id2429023/ (direct: 403 https://www.r",
+        "iso3": "XKX",
+        "land": "Kosovo",
+        "id": "kosovo/2428615",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_kosovo/id2428615/ (direct: 403 https://www.",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "TUN",
-        "land": "Tunesië",
-        "id": "tunisia/2414832",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_tunisia/id2414832/ (direct: 403 https://www",
+        "iso3": "DJI",
+        "land": "Djibouti",
+        "id": "djibouti/2414710",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_djibouti/id2414710/ (direct: 403 https://ww",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "URY",
-        "land": "Uruguay",
-        "id": "uruguay/2415333",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_uruguay/id2415333/ (direct: 403 https://www",
+        "iso3": "EGY",
+        "land": "Egypte",
+        "id": "egypt/2415880",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_egypt/id2415880/ (direct: 403 https://www.r",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "NIC",
-        "land": "Nicaragua",
-        "id": "nicaragua/2428567",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_nicaragua/id2428567/ (direct: 403 https://w",
+        "iso3": "MNE",
+        "land": "Montenegro",
+        "id": "montenegro/2416376",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_montenegro/id2416376/ (direct: 403 https://",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "LBR",
-        "land": "Liberia",
-        "id": "liberia/2414685",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_liberia/id2414685/ (direct: 403 https://www",
+        "iso3": "CHL",
+        "land": "Chili",
+        "id": "chile/2414751",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_chile/id2414751/ (direct: 403 https://www.r",
         "geblokkeerd": true
       }
     ]
   },
   "totalBroken": 0,
   "totalOntbrekend": 0,
-  "totalVerdacht": 9
+  "totalVerdacht": 8
 }
