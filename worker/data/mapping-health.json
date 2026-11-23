@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:18:42.054Z",
+  "generatedAt": "2026-11-23T18:40:23.651Z",
   "sources": {
     "uk": {
       "checked": 219,
@@ -156,7 +156,7 @@
     }
   },
   "steekproef": {
-    "dag": 20773,
+    "dag": 20780,
     "perBron": {
       "uk": {
         "gekoppeld": 219,
@@ -201,9 +201,9 @@
       "au": {
         "gekoppeld": 220,
         "getest": 6,
-        "ok": 6,
-        "verdacht": 0,
-        "onbereikbaar": 0,
+        "ok": 0,
+        "verdacht": 2,
+        "onbereikbaar": 4,
         "geblokkeerd": false
       },
       "es": {
@@ -297,114 +297,162 @@
     },
     "verdacht": [
       {
+        "bron": "au",
+        "iso3": "ETH",
+        "land": "Ethiopië",
+        "id": "africa/ethiopia",
+        "reden": "pagina zonder niveau en zonder inhoud (0 thema's) — mogelijk een stubpagina",
+        "geblokkeerd": false
+      },
+      {
+        "bron": "au",
+        "iso3": "MCO",
+        "land": "Monaco",
+        "id": "europe/monaco",
+        "reden": "pagina zonder niveau en zonder inhoud (0 thema's) — mogelijk een stubpagina",
+        "geblokkeerd": false
+      },
+      {
         "bron": "ch",
-        "iso3": "BHR",
-        "land": "Bahrein",
-        "id": "bahrain/reisehinweise-fuerbahrain.html",
+        "iso3": "MCO",
+        "land": "Monaco",
+        "id": "monaco/reisehinweise-fuermonaco.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "OMN",
-        "land": "Oman",
-        "id": "oman/reisehinweise-fuer-oman.html",
+        "iso3": "NOR",
+        "land": "Noorwegen",
+        "id": "norwegen/reisehinweise-fuernorwegen.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "COD",
-        "land": "Congo, Democratische Republiek",
-        "id": "demokratische-republik-kongo/reisehinweise-fuer-diedemokratischerepublikkongo.html",
+        "iso3": "TUR",
+        "land": "Turkije",
+        "id": "tuerkei/reisehinweise-fuerdietuerkei.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "SYR",
-        "land": "Syrië",
-        "id": "syrien/reisehinweise-fuersyrien.html",
+        "iso3": "VNM",
+        "land": "Vietnam",
+        "id": "vietnam/reisehinweise-fuervietnam.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "TLS",
-        "land": "Oost-Timor",
-        "id": "timor-leste/reisehinweise-fuertimor-leste.html",
+        "iso3": "VEN",
+        "land": "Venezuela",
+        "id": "venezuela/reisehinweise-fuervenezuela.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       },
       {
         "bron": "ch",
-        "iso3": "BGD",
-        "land": "Bangladesh",
-        "id": "bangladesch/reisehinweise-fuerbangladesch.html",
+        "iso3": "AZE",
+        "land": "Azerbeidzjan",
+        "id": "aserbaidschan/reisehinweise-fueraserbaidschan.html",
         "reden": "geen advies teruggegeven",
         "geblokkeerd": false
       }
     ],
     "onbereikbaar": [
       {
+        "bron": "au",
+        "iso3": "LBY",
+        "land": "Libië",
+        "id": "africa/libya",
+        "reden": "reader 402 https://www.smartraveller.gov.au/destinations/africa/libya — {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Acco",
+        "geblokkeerd": false
+      },
+      {
+        "bron": "au",
+        "iso3": "SGP",
+        "land": "Singapore",
+        "id": "asia/singapore",
+        "reden": "reader 402 https://www.smartraveller.gov.au/destinations/asia/singapore — {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Ac",
+        "geblokkeerd": false
+      },
+      {
+        "bron": "au",
+        "iso3": "ZWE",
+        "land": "Zimbabwe",
+        "id": "africa/zimbabwe",
+        "reden": "reader 402 https://www.smartraveller.gov.au/destinations/africa/zimbabwe — {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"A",
+        "geblokkeerd": false
+      },
+      {
+        "bron": "au",
+        "iso3": "BWA",
+        "land": "Botswana",
+        "id": "africa/botswana",
+        "reden": "reader 402 https://www.smartraveller.gov.au/destinations/africa/botswana — {\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"A",
+        "geblokkeerd": false
+      },
+      {
         "bron": "fi",
-        "iso3": "SSD",
-        "land": "Zuid-Sudan",
-        "id": "SS",
-        "reden": "403 https://um.fi/matkustustiedote/-/c/SS",
+        "iso3": "RUS",
+        "land": "Rusland",
+        "id": "RU",
+        "reden": "403 https://um.fi/matkustustiedote/-/c/RU",
         "geblokkeerd": false
       },
       {
         "bron": "no",
-        "iso3": "BGD",
-        "land": "Bangladesh",
-        "id": "bangladesh/2415564",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_bangladesh/id2415564/ (direct: 403 https://",
+        "iso3": "LKA",
+        "land": "Sri Lanka",
+        "id": "srilanka/2424492",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_srilanka/id2424492/ (direct: 403 https://ww",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "LBN",
-        "land": "Libanon",
-        "id": "libanon/2415116",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_libanon/id2415116/ (direct: 403 https://www",
+        "iso3": "TKM",
+        "land": "Turkmenistan",
+        "id": "turkmenistan/2428588",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_turkmenistan/id2428588/ (direct: 403 https:",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "LAO",
-        "land": "Laos",
-        "id": "laos/2424428",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_laos/id2424428/ (direct: 403 https://www.re",
+        "iso3": "ZAF",
+        "land": "Zuid-Afrika",
+        "id": "sorafrika/2424513",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_sorafrika/id2424513/ (direct: 403 https://w",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "JOR",
-        "land": "Jordanië",
-        "id": "jordan/2428573",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_jordan/id2428573/ (direct: 403 https://www.",
+        "iso3": "SWZ",
+        "land": "Eswatini (Swaziland)",
+        "id": "ewatini/2414925",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_ewatini/id2414925/ (direct: 403 https://www",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "DOM",
-        "land": "Dominicaanse Republiek",
-        "id": "dominikanske/2415685",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_dominikanske/id2415685/ (direct: 403 https:",
+        "iso3": "LSO",
+        "land": "Lesotho",
+        "id": "lesotho/2424507",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_lesotho/id2424507/ (direct: 403 https://www",
         "geblokkeerd": true
       },
       {
         "bron": "no",
-        "iso3": "TTO",
-        "land": "Trinidad en Tobago",
-        "id": "triogto/2428985",
-        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_triogto/id2428985/ (direct: 403 https://www",
+        "iso3": "USA",
+        "land": "Verenigde Staten van Amerika",
+        "id": "usa/2417194",
+        "reden": "norway: Cloudflare-botcheck op https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_usa/id2417194/ (direct: 403 https://www.reg",
         "geblokkeerd": true
       }
     ]
   },
   "totalBroken": 0,
   "totalOntbrekend": 1,
-  "totalVerdacht": 6
+  "totalVerdacht": 8
 }
